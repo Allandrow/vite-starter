@@ -1,59 +1,52 @@
-# Vite-starter Template
+<p align="center">
+ <br>
+ <img width="400" src="./assets/logo.svg" alt="Template with React, Vite and TypeScript">
+ <br>
+ <br>
+</p>
 
-This is a simple starter vite template that you can use to avoid long configurations and quickly start building stuff.
+<h2 align="center">Vite Starter Template</h2>
 
-This template is made for React and TypeScript usage
+<p align="center">
+An opinionated vite template using React, TypeScript and utilities (linting, formatting, commit control)
+<br>
+<br>
+</p>
 
-## What is included
+## Table of Contents
 
-- eslint + prettier + plugins : For code linting and formating purposes
-- vite-ts-config-paths : to facilitate creating path alias in your tsconfig file
-- lint-staged + husky + tsc-files : To validate your codebase before commiting
+<img src="https://user-images.githubusercontent.com/11247099/112722104-819b8a80-8f42-11eb-82f5-dfc2dd5d8a77.png" height="32" />
 
-## Eslint plugins and style guide
+Use the "Table of Contents" menu on the top-left corner to explore the list.
 
-Here is the list of plugins included with eslint with the airbnb styleguide :
+## Features
 
-- eslint
-- eslint-config-airbnb
-- eslint-config-airbnb-typescript
-- eslint-config-prettier
-- eslint-plugin-import
-- eslint-plugin-jsx-a11y
-- eslint-plugin-prettier
-- eslint-plugin-promise
-- eslint-plugin-react
-- eslint-plugin-react-hooks
-- eslint-plugin-simple-import-sort
+- [Vite](https://vitejs.dev) with [React](https://reactjs.org) and [TypeScript](https://www.typescriptlang.org).
+- [Eslint](https://eslint.org/) + [Prettier](https://prettier.io/) + plugins : For code linting and formating purposes.
+- [vite-ts-config-paths](https://www.npmjs.com/package/vite-tsconfig-paths) : to facilitate creating path alias in your tsconfig file.
+- [lint-staged](https://github.com/okonet/lint-staged) + [husky](https://github.com/typicode/husky) + [tsc-files](https://github.com/gustavopch/tsc-files) : To validate your codebase before commiting.
 
+## Getting started
 
-## How to Use
-
-1. Clone this repository
-
-```shell
-git clone git@github.com:Allandrow/vite-starter.git
+Use this repository as a [Github template](https://github.com/Allandrow/vite-starter/generate) (or click the `Use this template` button above).
+<br>
+<br>
+Then clone the repository to your machine with a clean git history.
+<br>
+<br>
+Install dependencies :
 ```
-
-2. Go inside the cloned repository
-
-```shell
-cd vite-starter
-```
-
-3. Install dependencies
-
-```shell
 npm install
 ```
 
-4. Cleanup the package.json files
+### Some cleanup before coding
 
-Notably the "name", "author", "version" and "licence" at the top of the files.
-
-5. Cleanup the README and LICENCE (remove or change name as needed)
-
-6. Happy coding !
+- [ ] Run the `prepare` script to setup husky. This will ensure that your commit are validated accordingly.
+- [ ] Check the `prettierrc` file to change the formatting settings according to your taste.
+- [ ] Clean the `package.json` file. Notably the `name`, `author`, `version`, `licence` fields.
+- [ ] Remove the `assets` folder, or simply the `logo.svg` file inside it.
+- [ ] Modify or delete the `LICENCE` file.
+- [ ] Cleanup this `README` file.
 
 ## Feedback
 
